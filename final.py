@@ -17,6 +17,9 @@ final = 0
 prateleira = [None] * MAX_ITENS
 count = 0
 
+
+#isto eh uma modificacao pra testar no github
+
 # Semaforos
 estrada = Semaphore(value=1)
 vazio = Semaphore(value=0)
