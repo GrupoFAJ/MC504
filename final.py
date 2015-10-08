@@ -6,9 +6,9 @@ from array import *
 from threading import *
 
 # Parametros
-N_PRODUTORES = 3
+N_PRODUTORES = 7
 N_CONSUMIDORES = 5
-MAX_ITENS = 5
+MAX_ITENS = 10
 PRODUCAO_POR_PRODUTOR = 3*MAX_ITENS
 
 # Variaveis auxiliares
@@ -18,7 +18,8 @@ prateleira = [None] * MAX_ITENS
 count = 0
 
 
-#isto eh uma modificacao pra testar no github
+#isto eh uma modificacao pra testar no github22
+
 
 # Semaforos
 estrada = Semaphore(value=1)
